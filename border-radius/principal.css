@@ -1,23 +1,67 @@
-#page-home{
-    display:flex;
-    flex-direction: column;
+body{
+    margin: 0;
+    padding: 0 25%;
 }
-#lado-um {
-    display:flex;
-    align-items:center;
-    margin:20px 15px 80px 20px;
-    justify-content: space-between;
+
+#page-home{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border: 2px solid;
+    width: 90%;
+    height: 100%;
+    justify-items: center;    
+
+    margin: 0;
+    padding: 80px 0;
+}
+
+#page-home header{
+margin: 20px;
+border: 1px solid;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0  0 ;
+margin: 10px 50px ;
+}
+#page-home header h1{
+    text-align: justify;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+}
+
+#page-home .content{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    border: 1px solid;
+    margin: 50px;
+    align-items: center;
+    padding: 80px 0 0 20px;
 
 }
-#lado-dois{
-    border: 1px solid;
-    width: 800px;
-    display:flex;
-    align-items: center;
+#page-home .content #centro{
+    background-color: white;
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+}
+#page-home .content .lados{
+    margin:20px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
-#centro{
-    width: 100px;
-    height: 100px;
-    border: 2px solid;
+#page-home .content .lados input{
+    border-radius: 50px;
+    height: 35px;
+    width: 60px;
+    background-color: darkgray;
 }
+
+
