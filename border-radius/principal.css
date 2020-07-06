@@ -45,10 +45,14 @@ margin: 10px 50px ;
 
 }
 #page-home .content #centro{
+    display: flex;
+    padding: 100px 0 0 0;
+    justify-content: center;
     background-color: white;
     border: 2px solid;
     height: 400px;
     width: 400px;
+    border-radius: 20px;
 }
 #page-home .content .lados{
     margin:20px;
@@ -63,5 +67,7 @@ margin: 10px 50px ;
     width: 60px;
     background-color: darkgray;
 }
+#page-home .content #centro p{
+    font-size: 15px;
 
-
+}

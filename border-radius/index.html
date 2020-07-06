@@ -13,18 +13,19 @@
         <div class="content">
             <div class="lados">
 
-                <input type="text" id="esquerda-top" name="esquerda-top" onblur="pegaValoresCampo(this);">
-                <input type="text" id="direta-top" name="direita-top">
+                <input type="text" id="esquerda-top" name="esquerda-top" onblur="pegaValoresCampo();">
+                <input type="text" id="direita-top" name="direita-top" onblur="pegaValoresCampo()">
 
                
             </div>
 
-            <div id="centro">
+            <div id="centro" name="centro" onclick="copia()">
+                <p name="imprimir" id="imprimir" onclick="copia()"></p>
 
             </div>
             <div class="lados">
-                <input type="text" id="esqueda-baixo" name="esquerda-baixo">
-                <input type="text" id="direita-baixo" name="direita-baixo">
+                <input type="text" id="esquerda-baixo" name="esquerda-baixo" onblur="pegaValoresCampo()">
+                <input type="text" id="direita-baixo" name="direita-baixo" onkeyup="pegaValoresCampo()">
             </div>
             
             </div>
