@@ -1,0 +1,23 @@
+#page-home{
+    display:flex;
+    flex-direction: column;
+}
+#lado-um {
+    display:flex;
+    align-items:center;
+    margin:20px 15px 80px 20px;
+    justify-content: space-between;
+
+}
+#lado-dois{
+    border: 1px solid;
+    width: 800px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#centro{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+}

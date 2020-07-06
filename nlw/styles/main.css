@@ -1,0 +1,41 @@
+:root{
+    --title-color:#322153; /*cria uma variavel*/
+    /*Para chamar a variavel em outro lugar apenas usar var(--title-color)*/
+
+    --primary-color:#34cb79;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+    font-family: 'Roboto', sans-serif;
+}
+body{
+
+background:#f0f0f5;
+
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+/* BOX MODEL
+Mopdelo de caixa
+Toda caixa item
+largura, altura, espaçamento, preencimentos
+bordas,cor, fundo, maneira que é vista pelo html (display)
+alinhamentos
+
+*/
+
+
+
