@@ -13,6 +13,8 @@ document.querySelector("#centro").style.borderRadius =valorDoCSS;
 
 document.querySelector("#imprimir").innerHTML="border-radius: "+esquerdaTop+"px "+direitaTop+"px "+ direitaBaixo+"px "+esquerdaBaixo+"px;";
 console.log(direitaBaixo)
+
+requestAnimationFrame(pegaValoresCampo)
 }
 function limpa(){
     document.querySelector("#imprimir").innerHTML=" ";
@@ -24,4 +26,4 @@ function copia(){
     document.execCommand("copy");
 }
 
-
+pegaValoresCampo()
