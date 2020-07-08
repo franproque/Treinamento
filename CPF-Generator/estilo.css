@@ -1,9 +1,60 @@
 body{
     margin: 0;
     padding: 0;
-    
+
 }
 
 #page-home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1850px;
 
+    background-color:gray;
+}
+#page-home header{
+    padding: 25px 0 0 50px ;
+    display: flex;
+    flex-direction: row;
+    width: 1850px;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+    background-image: url('imagens/fundo-menu.jpg');
+}
+#page-home header h1{
+
+    color: cyan;
+    font-size: 100px;
+    margin: 50px 0 0 450px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+#conteudo{
+    display: flex;
+    flex-direction: row;
+
+}
+#conteudo #menu li{
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid;
+    align-items: center;    
+}
+#conteudo #menu .primeiro-li{
+    border-radius: 8px 8px 0 0;
+    margin: 7px 0 0 0 ;
+}
+#conteudo #menu .ultimo-li{
+    border-radius: 0 0 8px 8px;
+}
+#conteudo #menu li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: justify;
 }
