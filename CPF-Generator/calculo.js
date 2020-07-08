@@ -56,10 +56,10 @@ function imprimir(){
 
     }
     console.log(imprimir)
-    document.querySelector("#cpf").innerHTML=imprimir;
+    document.querySelector("#texto").innerHTML=imprimir;
     //document.querySelector("#CPF").innerHTML="OlaFon";
 }
 
 
-imprimir();
+
 

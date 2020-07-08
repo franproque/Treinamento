@@ -7,37 +7,57 @@ body{
 #page-home{
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 1000px;
     width: 1850px;
 
-    background-color:gray;
-}
-#page-home header{
-    padding: 25px 0 0 50px ;
-    display: flex;
-    flex-direction: row;
-    width: 1850px;
-    height: 200px;
-    background-repeat: no-repeat;
     
-    background-image: url('imagens/fundo-menu.jpg');
 }
-#page-home header h1{
 
-    color: cyan;
-    font-size: 100px;
-    margin: 50px 0 0 450px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-
-}
-#conteudo{
+#page-home header{
+    padding: 10px 0 0 50px ;
     display: flex;
     flex-direction: row;
+    width: 1850px;
+    height: 100px;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-image: url('imagens/fundo-menu.jpg');
 
+}
+
+#page-home header a span{
+    
+}
+
+#page-home header a{
+    
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 50px;
+
+    width: 1800px;  
+    text-align: center;
+    margin: 15px;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 9px 7 px 5px rgba(50, 50, 50, 0.77) ;
+}
+
+#conteudo{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 25px;
+
+}
+#conteudo #menu {
+    margin: 50px 0;
 }
 #conteudo #menu li{
+    box-shadow:  9px 7px 5px rgba(50, 50, 50, 0.77);
     height: 50px;
+    padding-right: 5px;
     padding-left: 20px;
     display: flex;
     flex-direction: row;
@@ -45,16 +65,78 @@ body{
     border: 1px solid;
     align-items: center;    
 }
+#conteudo #menu li:hover{
+
+    background-color: wheat;
+}
 #conteudo #menu .primeiro-li{
     border-radius: 8px 8px 0 0;
-    margin: 7px 0 0 0 ;
+    margin: 10px 0 0 0 ;
+}
+
+#conteudo #menu .primeiro-li:hover{
+    background-color: white;
 }
 #conteudo #menu .ultimo-li{
     border-radius: 0 0 8px 8px;
+}
+
+#conteudo #menu .ultimo-li:hover{
+    background-color: white;
 }
 #conteudo #menu li a{
     color: black;
     font-size: 20px;
     text-decoration: none;
     text-align: justify;
+}
+
+#conteudo #centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 1500px;
+    height:800px;
+
+}
+#conteudo #centro #geradores{
+padding-top: 100px;
+margin: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 700px;
+height: 500px;
+border: 2px solid;
+border-radius: 10px;
+background-color: white;
+
+}
+#conteudo #centro #geradores h1{
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+#conteudo #centro #geradores p{
+    font-size: 40px;
+    width: 500px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+#conteudo #centro #geradores button{
+    font-size: 25px;
+    font-weight: 700;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 250px;
+    height: 45px;
+}
+#conteudo #centro button:hover{
+    background-color: darkgray;
 }
