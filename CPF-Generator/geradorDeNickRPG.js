@@ -30,15 +30,7 @@ function letrasAleatorias() {
 
     var nickPronto="";
     for(x=0;x<nick.length; x++){
-        for(z=0;z<vogais.length;z++){
-
-            if(nick[x]===vogais[z]){
-                console.log("Iguais")
-            }else{
-                nickPronto=nickPronto+nick[x];
-                console.log(nickPronto)
-            }
-        }
+       
         
     }
    console.log(nickPronto)
