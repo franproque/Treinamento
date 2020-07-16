@@ -6,21 +6,29 @@ namespace teste
     {
         static void Main(string[] args)
         {
+           Triangulo x,y;
+           x=new Triangulo();
+           y= new Triangulo();
+           x.a= double.Parse(Console.ReadLine());
+           x.b=double.Parse(Console.ReadLine());
+           x.c=double.Parse(Console.ReadLine());
+
+
+           y.a= double.Parse(Console.ReadLine());
+           y.b=double.Parse(Console.ReadLine());
+           y.c=double.Parse(Console.ReadLine());
+
+            double i= x.area();
+            double t = y.area();
+
+            if(i>t){
+                Console.WriteLine("O X é maior");
+                
+            }else{
+                Console.WriteLine(" O Y é maior"+ y);
+            }
            
-            double a=5;
-            int b=2;
-
-            double resultado = a/b;
-            Console.WriteLine(resultado);
-          string[] t;
-
-
-        for(int x=0;x<10;x++){
-            Console.WriteLine(x);
-
-        }
-        Console.WriteLine(delta+10);
-            Console.WriteLine("Hello World!");
+          
         }
     }
 }
